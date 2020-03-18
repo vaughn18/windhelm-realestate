@@ -1,0 +1,53 @@
+.navbar {
+  background: linear-gradient(#4ee1f5, rgb(164, 94, 255));
+  font: white;
+  font-family: "Khand", sans-serif;
+  font-size: 25px !important;
+}
+
+.navbar-brand {
+  font-size: 40px !important;
+  font-family: "Khand", sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(16, 255, 183) !important;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-brand {
+    font-size: 20px !important;
+  }
+
+  .navbar {
+    font-size: 12px !important;
+    background: linear-gradient(#4ee1f5, rgb(164, 94, 255));
+  }
+}
+
+footer {
+  background: #3c7191;
+}
+
+.list-unstyled li a {
+  color: lightskyblue;
+}
+
+.parallax {
+  /* The image used */
+  padding-top: 50px;
+  background-image: url("images/parallax.jpg");
+  background-size: 100% auto;
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#box {
+  padding-top: 40px;
+  height: 400px;
+  width: 500px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
